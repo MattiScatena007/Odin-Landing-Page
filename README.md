@@ -2,4 +2,4 @@
 - 👀 I’m interested in learing how to program websites.
 - 🌱 I’m currently learning how to program in html, CSS and JavaScript.
 - 💞️ The website consists on a simple landing page.
-- 📫 How to reach me: mattiascatena@gmail.com
+- 📫 How to reach me: mattiascatenaracedo@gmail.com
