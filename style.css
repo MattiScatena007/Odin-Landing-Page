@@ -4,7 +4,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .hero {
@@ -17,6 +16,9 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex: 1;
+    flex-wrap: wrap;
+    position: sticky;
 }
 .title-header {
     color: #F9FAF8;
@@ -29,6 +31,7 @@ body {
 .links-header {
     display: flex;
     align-self: center;
+    flex-wrap: wrap;
 }
 ul {
     display: flex;
@@ -43,19 +46,21 @@ a {
     display: flex;
 }
 
-.content {
+#content {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding: 100px 185px 100px 185px;
     background-color: #1F2937;
     flex: 1 1 0;
+    flex-wrap: wrap;
 }
 .text-content {
-    width: 470px;
-    flex: 0 1 470px;
+    width: 460px;
+    flex: 0 1 460px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .main-title {
     font-size: 48px;
@@ -88,7 +93,7 @@ a {
 
 }
 
-.random-info {
+#random-info {
     display: flex;
     flex-direction: column;
     flex: 0 1 0;
@@ -96,10 +101,12 @@ a {
     align-items: center;
     padding: 50px 50px 100px 50px;
     gap: 50px;
+    flex-wrap: wrap;
 }
 .img-subtexts {
     display: flex;
     gap: 20px;
+    flex-wrap: wrap;
 }
 .border {
     display: flex;
@@ -111,9 +118,11 @@ a {
     gap: 5px;
 }
 .title-info {
+    display: flex;
     font-size: 38px;
     color: #1F2937;
     font-weight: bolder;
+    flex-wrap: wrap;
 }
 .illustration {
     display: flex;
@@ -138,7 +147,7 @@ a {
     background-color: #E5E7EB;
 }
 .container-quote {
-    width: 750px;
+    width: 830px;
 }
 .quote {
     color: #1F2937;
@@ -155,19 +164,22 @@ a {
     font-size: 22px;
 }
 
-.container-modal {
+#container-modal {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
 }
 .modal {
     margin: 100px;
     padding: 50px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 870px;
-    height: 45px;
     background-color: #3882F6;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 .title-modal {
     color: #F9FAF8;
@@ -177,6 +189,8 @@ a {
 .subtext-modal {
     color: #F9FAF8;
     font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .container-button-modal {
     align-self: center;
@@ -199,6 +213,7 @@ a {
     align-items: center;
     text-decoration: none;
     font-size: 15px;
+    flex: auto;
 }
 .foot {
     display: flex;
