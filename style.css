@@ -18,7 +18,6 @@ body {
     align-items: flex-start;
     flex: 1;
     flex-wrap: wrap;
-    position: sticky;
 }
 .title-header {
     color: #F9FAF8;
